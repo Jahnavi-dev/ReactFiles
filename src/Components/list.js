@@ -45,39 +45,7 @@ export const ListComp=()=>{
             winCount:2
         }
     ]
-  return(<React.Fragment>
-    {
-
-    iplData.map((eachTeam)=>{
-        const{teamName,teamImage,players,winYears,winCount}=eachTeam
-        return(<>
-        <h2>TeamName: {teamName}</h2>
-        <img src={teamImage} height={100} width={100} alt=""/>
-        
-        <h4>Team Players:</h4>
-        {players.map((player)=>{
-            return(<>
-            <p>{player}</p>
-            </>)
-        })}
-        <h4>Win Years:</h4>
-        {winCount>0?
-        winYears.map((year)=>{
-            return(<>
-            <p>year: {year}</p>
-            </>)
-        }):0}
-        
-
-        <h4>Win Count: {winCount}</h4>
-
-
-        </>)
-        })
-
-    }
-  </React.Fragment>
-  )
+  
 }
 
 
