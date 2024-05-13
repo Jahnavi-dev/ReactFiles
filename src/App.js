@@ -1,19 +1,24 @@
 import {React} from "react";
-import { UnOrderList } from "./Components/unOrderList";
-import ButtonClassComp from "./Components/Class_Comp/button_class";
-import ImageClassComp from "./Components/Class_Comp/img_class";
-import TableClassComp from "./Components/Class_Comp/table_class";
+import HeadFComp from "./Components/functional/heading/head1"
+
+import "./Components/functional/heading/head1_style.css"
+
+import { Head2Comp } from "./Components/functional/heading/head2";
+import Head3Comp from "./Components/functional/heading/head3";
+import CarouselComp from "./Components/functional/Carousel/carousel1";
+import NavbarComp from "./Components/functional/Navbar/navbar";
 
 
 
 const App=()=>{
   return(
     <>
-    <TableClassComp/>
-    <ImageClassComp/>
-    <br/>
-   <ButtonClassComp/>
-   </>
+    <CarouselComp/>
+    <NavbarComp/>
+    <HeadFComp/>
+    <Head2Comp/>
+    <Head3Comp/>
+    </>
   )
 }
 
