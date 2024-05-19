@@ -28,14 +28,14 @@ const Button1Comp=(props)=>{
 
 export default Button1Comp
 
-export const Button2Comp=(props)=>{
-    console.log(props,"props2")
-    const btn2style={
-        backgroundColor:props.bgColor,
-        width:props.width,
-        height:props.height,
-    }
-    return(
-        <button style={btn2style}>{props.text}</button>
-    )
-}
+// export const Button2Comp=(props)=>{
+//     console.log(props,"props2")
+//     const btn2style={
+//         backgroundColor:props.bgColor,
+//         width:props.width,
+//         height:props.height,
+//     }
+//     return(
+//         <button style={btn2style}>{props.text}</button>
+//     )
+// }
