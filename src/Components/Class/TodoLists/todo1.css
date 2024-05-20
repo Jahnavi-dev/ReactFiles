@@ -1,0 +1,16 @@
+.mainCont{
+    width:35%;
+    background-color: yellowgreen;
+    margin: 20px;
+    padding:20px;
+    border-style: solid;
+    border-radius:10px;
+    border-color: green;
+}
+.addBtn{
+    margin: 10px;
+    background-color: yellow;
+    padding:7px;
+    border: 2px solid green;
+    border-radius:7px;
+}

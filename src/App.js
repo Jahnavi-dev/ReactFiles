@@ -1,11 +1,15 @@
-import {React} from "react";
-import Products from "./Components/Class/Products/products";
+import Todo1Comp from "./Components/Class/TodoLists/todo1"
+
 
 
 
 
 const App=()=>{ 
-  <Products></Products>
+  return(
+    <>
+    <Todo1Comp></Todo1Comp>
+    </> 
+  )
 }
 
 export default App
