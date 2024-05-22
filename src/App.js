@@ -1,4 +1,6 @@
-import Todo1Comp from "./Components/Class/TodoLists/todo1"
+import React from "react"
+import Mounting from "./Components/Class/LifeCycleMethods/mounting"
+
 
 
 
@@ -6,9 +8,9 @@ import Todo1Comp from "./Components/Class/TodoLists/todo1"
 
 const App=()=>{ 
   return(
-    <>
-    <Todo1Comp></Todo1Comp>
-    </> 
+    <React.Fragment>
+      <Mounting changeStateViaGDSFP={"fromApp.js"}/>
+    </React.Fragment>
   )
 }
 
