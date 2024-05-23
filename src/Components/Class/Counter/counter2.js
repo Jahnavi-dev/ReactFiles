@@ -47,8 +47,6 @@ class Counter2Comp extends Component{
                 <button className="btn2styling" onClick={()=>this.changeCounter("Increment")}>Increment</button>
                 <button className="btn2styling" onClick={()=>this.changeCounter("Reset")}>Reset</button>
                 <button className="btn2styling" onClick={()=>this.changeCounter("Decrement")}>Decrement</button>
-        
-                
             </div>
         )
     }

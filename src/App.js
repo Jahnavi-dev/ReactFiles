@@ -1,5 +1,7 @@
 import React from "react"
-import Mounting from "./Components/Class/LifeCycleMethods/mounting"
+import CategoryWiseList from "./Components/Class/Category/category"
+import { Spinner1Comp } from "./Components/functional/Spinner/spinner1"
+
 
 
 
@@ -9,7 +11,8 @@ import Mounting from "./Components/Class/LifeCycleMethods/mounting"
 const App=()=>{ 
   return(
     <React.Fragment>
-      <Mounting changeStateViaGDSFP={"fromApp.js"}/>
+      <h3 style={{margin:"10px"}}>View All the Products by filtering CategoryWise</h3>
+      <CategoryWiseList/>
     </React.Fragment>
   )
 }
