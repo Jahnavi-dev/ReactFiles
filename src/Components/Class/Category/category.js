@@ -51,7 +51,7 @@ class CategoryWiseList extends Component{
         }
 
         CategoryWiseList=(category)=>{
-            debugger
+            // debugger
             // switch(category){
             //     case "electronics":
             //         console.log("electronics")
@@ -69,7 +69,7 @@ class CategoryWiseList extends Component{
         <>
         {this.state.category.length>0?this.state.category.map((eachCategory,i)=>{
             return(<React.Fragment key={i}>
-            <Btn1ClassComp onclick={()=>this.CategoryWiseList(eachCategory)} category={eachCategory} bgcolor={this.state.bgcolor[i]}/>  
+            <Btn1ClassComp onclick={this.CategoryWiseList} category={eachCategory} bgcolor={this.state.bgcolor[i]}/>  
             {(i===this.state.category.length-1)&& <Btn1ClassComp category={"All Products"} bgcolor={this.state.bgcolor[i+1]}/>}         
             </React.Fragment>)
         })
@@ -77,13 +77,11 @@ class CategoryWiseList extends Component{
         }
         <br/>
         <div style={{display:"flex", flexDirection:"row", flexWrap:"wrap", gap:"35px",margin:"35px"}}>
-        {this.state.products.length>0 && this.state.products.map((eachProduct)=>{
+        {this.state.products.length>0 && this.state.products.map((eachProduct,index)=>{
             return(
-                <>
-                <div>
+                <div key={index}>
                 <Card2Comp product={eachProduct}/>
                 </div>
-                </>
                 )
         })}
         </div>

@@ -3,7 +3,7 @@ import { Component } from "react";
 class Btn1ClassComp extends Component{
     render(){
         return(
-            <button style={{
+            <button onClick={()=>this.props.onclick(this.props.category)} style={{
                 backgroundColor:this.props.bgcolor,
                 margin:"10px",
                 padding:"7px",
