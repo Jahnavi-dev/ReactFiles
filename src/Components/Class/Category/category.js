@@ -51,15 +51,22 @@ class CategoryWiseList extends Component{
         }
 
         CategoryWiseList=(category)=>{
-            // debugger
-            // switch(category){
-            //     case "electronics":
-            //         console.log("electronics")
-            //         break;
-            //     default:
-            //         console.log("")
-            // }
-            console.log("hiiii")
+            // console.log("hiiii")
+            // console.log(category)
+    
+            switch(category){
+                case "electronics":
+                    const filtered_list=this.state.products.filter((eachProduct)=>{
+                       if(eachProduct.category==="electronics"){return eachProduct}
+                    console.log(filtered_list) 
+                    
+                    // this.setState({products:filtered_list})
+                    })
+                    break;
+                default:
+                    console.log("")
+            }
+            
         }
     
 
