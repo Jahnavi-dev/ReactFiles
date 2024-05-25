@@ -51,18 +51,38 @@ class CategoryWiseList extends Component{
         }
 
         CategoryWiseList=(category)=>{
-            // console.log("hiiii")
-            // console.log(category)
+            console.log("hiiii")
     
             switch(category){
                 case "electronics":
-                    const filtered_list=this.state.products.filter((eachProduct)=>{
-                       if(eachProduct.category==="electronics"){return eachProduct}
-                    console.log(filtered_list) 
+                    console.log(category)
+                    const filtered_list1=this.state.products.filter((eachProduct1)=>eachProduct1.category==="electronics")
+                    console.log(filtered_list1) 
                     
-                    // this.setState({products:filtered_list})
-                    })
+                    this.setState({products:filtered_list1})
                     break;
+                case "jewelery":
+                    console.log(category)
+                    const filtered_list2=this.state.products.filter((eachProduct2)=>eachProduct2.category==="jewelery")
+                    console.log(filtered_list2) 
+                    
+                    this.setState({products:filtered_list2})
+                    break;
+                case "men's clothing":
+                    console.log(category)
+                    const filtered_list3=this.state.products.filter((eachProduct3)=>eachProduct3.category==="men's clothing")
+                    console.log(filtered_list3) 
+                    
+                    this.setState({products:filtered_list3})
+                    break;
+                case "women's clothing":
+                    console.log(category)
+                    const filtered_list4=this.state.products.filter((eachProduct4)=>eachProduct4.category==="women's clothing")
+                    console.log(filtered_list4) 
+                    
+                    this.setState({products:filtered_list4})
+                    break;
+            
                 default:
                     console.log("")
             }
@@ -77,7 +97,7 @@ class CategoryWiseList extends Component{
         {this.state.category.length>0?this.state.category.map((eachCategory,i)=>{
             return(<React.Fragment key={i}>
             <Btn1ClassComp onclick={this.CategoryWiseList} category={eachCategory} bgcolor={this.state.bgcolor[i]}/>  
-            {(i===this.state.category.length-1)&& <Btn1ClassComp category={"All Products"} bgcolor={this.state.bgcolor[i+1]}/>}         
+            {/* {(i===this.state.category.length-1)&& <Btn1ClassComp category={"All Products"} bgcolor={this.state.bgcolor[i+1]}/>}          */}
             </React.Fragment>)
         })
         :<Spinner1Comp/>
