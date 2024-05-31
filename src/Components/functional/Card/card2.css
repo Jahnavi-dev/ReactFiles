@@ -1,0 +1,9 @@
+.card2{
+    margin-top:20px;
+    margin-left: 280px;
+    padding-top:15px !important;
+    width:700px !important;
+    border-radius: 25px !important;
+    border:2px solid blueviolet !important;
+    box-shadow:5px 5px 7px blueviolet !important;
+}

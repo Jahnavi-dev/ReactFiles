@@ -1,8 +1,10 @@
+import "./card2.css"
 const Card2Comp=(props)=>{
-    // console.log(props)
-    const{id,title, description, image, category}=props.product
+  console.log(props)
+    console.log(props.data)
+    const{title, description, image, category}=props.productData
 return(
-    <div key={id}className="card" style={{ width: "22rem",padding:"10px"}}>
+    <div className="card card2" style={{ width: "22rem",padding:"10px"}}>
     <div className="text-center"><img className="card-img-top" src={image} alt="CardImage" style={{height:200,width:200}} /></div>
     <div className="card-body">
       <h5 className="card-text">Category: {category}</h5>
