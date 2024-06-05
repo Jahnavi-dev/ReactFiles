@@ -1,18 +1,17 @@
-import React, { Component } from "react"
-import EachProduct from "./Components/Class/Products/ProductsTask"
+import React from "react"
+import Timer from "./Components/Class/LifeCycleMethods/timer"
 
 
 
-class App extends Component{ 
+
+const App=()=>{
   
-  render(){
+  const a=-12
     return(
       <React.Fragment>
-        <EachProduct/>
+        {a && <button>btn</button>}
+        <Timer/>
       </React.Fragment>
     )
-  }
-  
 }
-
 export default App

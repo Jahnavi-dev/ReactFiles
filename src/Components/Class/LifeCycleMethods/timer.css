@@ -1,0 +1,15 @@
+.mainCont{
+    background-color: #2a52be;
+    color: yellow;
+    width:400px;
+    height:200px;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding:15px
+
+}
+
+.timerStyle{
+    padding:20px
+}

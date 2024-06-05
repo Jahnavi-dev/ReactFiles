@@ -1,16 +1,18 @@
 import { Component } from "react";
 
 class Btn1ClassComp extends Component{
+    
+    btnStyle={
+        backgroundColor:"Yellow",
+        width:"80px",
+        height:"30px",
+        borderWidth:"0px",
+        borderRadius:"5px",
+    }
+
     render(){
         return(
-            <button style={{
-                backgroundColor:this.props.bgcolor,
-                margin:"10px",
-                padding:"7px",
-                borderWidth:"0px",
-                borderRadius:"10px"
-        }
-            }>{this.props.category}</button>
+            <button style={this.btnStyle} onClick={this.props.onclick}>{this.props.text}</button>
         )
     }
 }
