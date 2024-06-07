@@ -1,3 +1,4 @@
+
 export const Spinner1Comp = () => {
   return (
     <>

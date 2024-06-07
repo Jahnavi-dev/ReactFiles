@@ -1,7 +1,7 @@
 import "./card2.css"
 const Card2Comp=(props)=>{
   console.log(props)
-    console.log(props.data)
+  
     const{title, description, image, category}=props.productData
 return(
     <div className="card card2" style={{ width: "22rem",padding:"10px"}}>

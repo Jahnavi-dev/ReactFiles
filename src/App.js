@@ -1,5 +1,6 @@
 import React from "react"
 import Timer from "./Components/Class/LifeCycleMethods/timer"
+import CategoryWiseProducts from "./Components/Class/Category/categoryProduct"
 
 
 
@@ -9,8 +10,7 @@ const App=()=>{
   const a=-12
     return(
       <React.Fragment>
-        {a && <button>btn</button>}
-        <Timer/>
+        <CategoryWiseProducts/>
       </React.Fragment>
     )
 }

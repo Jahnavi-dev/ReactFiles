@@ -1,0 +1,19 @@
+.MainHead{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btnsStyling{
+    background-color: blueviolet;
+    color:white;
+    font-size: 20px;
+    font-weight:600 ;
+    border-width: 0px;
+    border-radius: 5px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin:10px;
+}
