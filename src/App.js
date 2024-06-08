@@ -1,16 +1,14 @@
 import React from "react"
-import Timer from "./Components/Class/LifeCycleMethods/timer"
-import CategoryWiseProducts from "./Components/Class/Category/categoryProduct"
+import CounterUSH from "./Components/functional/Hooks/useStateHooks/CounterUSH/counterUSH"
 
 
 
 
 const App=()=>{
   
-  const a=-12
     return(
       <React.Fragment>
-        <CategoryWiseProducts/>
+        <CounterUSH/>        
       </React.Fragment>
     )
 }
