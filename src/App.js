@@ -1,5 +1,6 @@
 import React from "react"
-import CounterUSH from "./Components/functional/Hooks/useStateHooks/CounterUSH/counterUSH"
+import TimerUSH from "./Components/functional/Hooks/useStateHooks/TimerUSH/timerUSH"
+
 
 
 
@@ -8,7 +9,7 @@ const App=()=>{
   
     return(
       <React.Fragment>
-        <CounterUSH/>        
+          <TimerUSH/> 
       </React.Fragment>
     )
 }
