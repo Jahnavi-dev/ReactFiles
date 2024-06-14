@@ -1,16 +1,12 @@
 import React from "react"
-import FormComp from "./Components/functional/Hooks/useRefHooks/Forms/form"
-
-
-
-
+import LoginComp from "./Components/functional/LoginForm/login"
 
 
 const App=()=>{
   
     return(
       <React.Fragment>
-        <FormComp/>          
+           <LoginComp/>    
       </React.Fragment>
     )
 }
