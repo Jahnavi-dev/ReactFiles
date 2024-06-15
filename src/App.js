@@ -1,5 +1,6 @@
 import React from "react"
-import TodoUEH from "./Components/functional/Hooks/useEffectHooks/TodosUEH/TodoUEH"
+import SearchProducts from "./Components/functional/SearchProducts/sp"
+
 
 
 
@@ -7,7 +8,7 @@ const App=()=>{
   
     return(
       <React.Fragment>
-           <TodoUEH/>   
+        <SearchProducts/> 
       </React.Fragment>
     )
 }

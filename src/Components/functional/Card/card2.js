@@ -1,6 +1,6 @@
 import "./card2.css"
 const Card2Comp=(props)=>{
-  console.log(props)
+  // console.log(props)
   
     const{title, description, image, category}=props.productData
 return(

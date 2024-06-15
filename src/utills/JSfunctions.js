@@ -3,5 +3,5 @@ export const Objectlength=(obj)=>{
 }
 
 export const Arraylength=(arr)=>{
-    return(Object.keys(arr).length>0)
+    return(arr.length>0)
 }
