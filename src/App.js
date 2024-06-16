@@ -1,14 +1,13 @@
 import React from "react"
-import SearchProducts from "./Components/functional/SearchProducts/sp"
-
-
+import Routing1 from "./Navigations/Navigation1/routing1"
 
 
 const App=()=>{
-  
-    return(
-      <React.Fragment>
-        <SearchProducts/> 
+
+      return(
+      <React.Fragment> 
+        <Routing1/>
+        
       </React.Fragment>
     )
 }
