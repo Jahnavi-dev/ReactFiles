@@ -7,7 +7,6 @@ const App=()=>{
       return(
       <React.Fragment> 
         <Routing1/>
-        
       </React.Fragment>
     )
 }

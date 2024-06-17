@@ -8,6 +8,18 @@ const SearchProducts=()=>{
     const[singleProduct, setsingleProduct]=useState({})
 
     useEffect(()=>{
+        window.addEventListener("mousemove",mousemoveFunction)
+        return()=>{
+            window.removeEventListener("mousemove",mousemoveFunction)
+
+        }
+
+    },[])
+    const mousemoveFunction=()=>{
+        console.log("MouseMoveEvent triggred")
+    }
+
+    useEffect(()=>{
         fetchProducts()
     },[])
 
