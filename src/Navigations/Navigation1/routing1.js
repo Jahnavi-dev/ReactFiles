@@ -5,6 +5,7 @@ import HomeScreen from "../Screens1/HomeScreen"
 import ContactScreen from "../Screens1/ContactScreen"
 import SettingsScreen from "../Screens1/SettingsScreen"
 import InvalidScreen from "../Screens1/InvalidScreen"
+import ProductDetails from "../Screens1/ProductScreen"
 
 const Routing1=()=>{
     return(
@@ -15,6 +16,7 @@ const Routing1=()=>{
                 <Route path="/About"Component={AboutScreen}/>
                 <Route path="/Contact"Component={ContactScreen}/>
                 <Route path="/Settings"Component={SettingsScreen}/>
+                <Route path="/products/:productID" Component={ProductDetails}/>
                 <Route path="*"Component={InvalidScreen}/>
             </Routes>
             </BrowserRouter>
