@@ -26,7 +26,7 @@ const AboutScreen=()=>{
                 return(<React.Fragment key={eachProduct.id}>
                     <div className="cardCont" style={{padding:"20px", display:"flex", flexDirection:"column",justifyContent:"center", rowGap:"5px", border:"2px solid grey", borderRadius:"10px", textAlign:"center"}}>
                     <Image1Comp src={eachProduct.image} height={"220px"} width={"220px"} />
-                    <Link to={`/products/${eachProduct.id}`}><button className="btn btn-primary">View Product</button></Link>
+                    <Link to={`/products/${eachProduct.id}`}><button className="btn btn-primary">Add to Cart</button></Link>
                     </div>
                 </React.Fragment>)
             })}

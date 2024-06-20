@@ -1,12 +1,17 @@
-import React from "react"
+import React, { useContext } from "react"
 import { Link } from "react-router-dom"
+import { themeInfo, userInfo } from "./Navigation1/routing1"
 
 const NavbarComp=()=>{
-  const linkTagStyle={textDecoration:"none", color:"black"}
+  const userNames=useContext(userInfo)
+  const {darkmode}=useContext(themeInfo)
+  console.log(userNames)
+
+  const linkTagStyle={textDecoration:"none", color:darkmode?"white":"black"}
 
     return(
         <React.Fragment>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className={darkmode?"navbar navbar-expand-lg navbar-light bg-dark":"navbar navbar-expand-lg navbar-light bg-light"}>
             <button
               className="navbar-toggler"
               type="button"
@@ -31,6 +36,10 @@ const NavbarComp=()=>{
                 </li>
                 <li className="nav-item nav-link">
                 <Link to={"/Settings"} style={linkTagStyle}>Settings</Link>
+                </li>
+                <li className="nav-item nav-link" style={{marginLeft:"850px"}}>
+                {/* <button style={{borderRadius:"50px", padding:"8px", border:"3px solid blueviolet"}}><Link to={"/Settings"} style={linkTagStyle}>User</Link></button> */}
+                <button style={{borderRadius:"50px", padding:"8px", border:"3px solid blueviolet", backgroundColor:"blueviolet"}}><Link to={"/Settings"} style={linkTagStyle}>{userNames}</Link></button>
                 </li>
               </ul>
             </div>

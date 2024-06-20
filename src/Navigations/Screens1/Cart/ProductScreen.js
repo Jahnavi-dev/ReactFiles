@@ -1,9 +1,9 @@
 import axios from "axios"
 import React, { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import { Objectlength } from "../../utills/JSfunctions"
-import { Spinner1Comp } from "../../Components/functional/Spinner/spinner1"
-import Card2Comp from "../../Components/functional/Card/card2"
+import { Objectlength } from "../../../utills/JSfunctions"
+import { Spinner1Comp } from "../../../Components/functional/Spinner/spinner1"
+import Card2Comp from "../../../Components/functional/Card/card2"
 
 const ProductDetails=()=>{
     const [product, setProduct]=useState({})
