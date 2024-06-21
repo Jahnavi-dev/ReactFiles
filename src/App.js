@@ -1,12 +1,14 @@
 import React from "react"
 import Routing1 from "./Navigations/Navigation1/routing1"
+import MyShopNavigation from "./Components/functional/myShop/myShopNavigation"
 
 
 const App=()=>{
 
       return(
       <React.Fragment> 
-        <Routing1/>
+        <MyShopNavigation>
+        </MyShopNavigation>
       </React.Fragment>
     )
 }
