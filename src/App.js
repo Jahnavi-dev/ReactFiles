@@ -1,12 +1,15 @@
 import React from "react"
-import Routing2 from "./Components/functional/myShop2/routings2"
+import RoutingURH from "./Components/functional/Hooks/useReducerHooks/routingURH"
+
+
 
 
 const App=()=>{
 
       return(
       <React.Fragment> 
-        <Routing2/>
+        <RoutingURH/>
+
       </React.Fragment>
     )
 }
