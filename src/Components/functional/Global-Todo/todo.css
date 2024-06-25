@@ -1,0 +1,40 @@
+.main_cont{
+    background-image: linear-gradient(to bottom,skyblue,white);
+    width: 400px;
+    margin: 20px;
+    padding:15px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+
+.inputEleStyle{
+    margin-top: 15px;
+}
+
+.Enter{
+    background-image: linear-gradient(to bottom,skyblue,white);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left:10%;
+    width:80px
+}
+
+.list_cont{
+    margin-top: 20px;
+}
+
+.liEle{
+    margin-top: 10px;
+}
+
+.listBtns{
+    border:1px solid black;
+    border-radius: 5px;
+    margin-right: 13%;
+}
+
+.flex_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

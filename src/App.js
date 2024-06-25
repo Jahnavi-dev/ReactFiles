@@ -1,15 +1,10 @@
 import React from "react"
-import RoutingURH from "./Components/functional/Hooks/useReducerHooks/routingURH"
-
-
-
+import TodoRouting from "./Components/functional/Global-Todo/todoRout"
 
 const App=()=>{
-
       return(
       <React.Fragment> 
-        <RoutingURH/>
-
+        <TodoRouting/>
       </React.Fragment>
     )
 }
