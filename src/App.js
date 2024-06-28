@@ -1,10 +1,15 @@
 import React from "react"
-import TodoRouting from "./Components/functional/Global-Todo/todoRout"
+import UseCallBack from "./Components/functional/Hooks/useCallbackHooks/useCallback"
+import AgeSalary from "./Components/functional/Hooks/CustomHooks/Age&Salary"
+
+
 
 const App=()=>{
       return(
       <React.Fragment> 
-        <TodoRouting/>
+        {/* <UseCallBack/> */}
+        <AgeSalary/>
+        
       </React.Fragment>
     )
 }
