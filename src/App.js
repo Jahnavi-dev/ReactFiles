@@ -1,15 +1,14 @@
 import React from "react"
-import UseCallBack from "./Components/functional/Hooks/useCallbackHooks/useCallback"
-import AgeSalary from "./Components/functional/Hooks/CustomHooks/Age&Salary"
+import CircleRouting from "./Components/functional/CircleTask/circleRouting"
+
 
 
 
 const App=()=>{
       return(
       <React.Fragment> 
-        {/* <UseCallBack/> */}
-        <AgeSalary/>
-        
+        <CircleRouting/>
+              
       </React.Fragment>
     )
 }
