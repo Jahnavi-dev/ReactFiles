@@ -1,14 +1,12 @@
 import React from "react"
-import CircleRouting from "./Components/functional/CircleTask/circleRouting"
-
+import AgeSalary from "./Components/functional/Hooks/CustomHooks/Age&Salary"
 
 
 
 const App=()=>{
       return(
       <React.Fragment> 
-        <CircleRouting/>
-              
+        <AgeSalary/>
       </React.Fragment>
     )
 }
