@@ -1,12 +1,12 @@
 import React from "react"
-import AgeSalary from "./Components/functional/Hooks/CustomHooks/Age&Salary"
+import CircleGen from "./Components/functional/CircleTask-2/CircleGen"
 
 
 
 const App=()=>{
       return(
       <React.Fragment> 
-        <AgeSalary/>
+        <CircleGen/>
       </React.Fragment>
     )
 }
