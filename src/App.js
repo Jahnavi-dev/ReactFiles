@@ -1,12 +1,12 @@
 import React from "react"
-import CircleGen from "./Components/functional/CircleTask-2/CircleGen"
+import Book1inReact from "./Components/functional/reduxbook1/book1inReact"
 
 
 
 const App=()=>{
       return(
       <React.Fragment> 
-        <CircleGen/>
+        <Book1inReact/>
       </React.Fragment>
     )
 }

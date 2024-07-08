@@ -4,11 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Provider } from "react-redux"
+import { bookStore1 } from './Components/Redux/Redux1/store1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     // <React.StrictMode>
-    <App />
+    <Provider store={bookStore1}>
+        <App />
+    </Provider>
+    
     // </React.StrictMode>
 );
 
