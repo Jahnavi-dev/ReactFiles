@@ -15,7 +15,7 @@ const Redux2Practice=()=>{
         const getPassword=document.getElementById("Password").value 
         dispatch(userAction({username:getUserName, useremail:getEmail, userpassword:getPassword}))
     }
-
+  
     return(
     <React.Fragment>
         <h1>redux2Practice</h1>
