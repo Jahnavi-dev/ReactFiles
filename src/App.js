@@ -1,12 +1,11 @@
 import React from "react"
-import FakeStoreRouting from "./Components/functional/redux2FakeStore/fakeStoreRouting"
-
+import TodoAppRouting from "./Components/TodoApplication/TodoComp/TodoAppRouting"
 
 
 const App=()=>{
       return(
       <React.Fragment> 
-        <FakeStoreRouting/>
+        <TodoAppRouting/>
       </React.Fragment>
     )
 }

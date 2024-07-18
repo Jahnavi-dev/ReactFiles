@@ -1,0 +1,34 @@
+.main_Cont{
+    width:30%;
+    padding:15px;
+    border:1.5px solid black;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.AddTodoBtn{
+    margin-left: 4%;
+    border:1.5px solid black;
+    border-radius: 5px;
+}
+
+.todo_sub_main_cont{
+    padding:15px
+}
+
+.eachtodo_cont{
+    border:1px solid black;
+    border-radius: 10px;
+    padding:12px;
+    margin:10px;
+}
+
+.delBtnStyle{
+    border:1.5px solid black;
+    border-radius: 5px;
+    float: right;
+}
+
+
+
