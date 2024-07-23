@@ -4,7 +4,8 @@ import { combineReducers } from "redux";
 // import userReducer from "./Redux2Practice/reducerPractice";
 // import fakeStoreReducer from "./Redux2/fakeStoreAPI/reducer";
 // import CartReducer from "./Redux2/fakeStoreAPI/cartReducer";
-import TodoAppReducer from "../TodoApplication/TodoRedux/TodoAppRed";
+// import TodoAppReducer from "../TodoApplication/TodoRedux/TodoAppRed";
+import LayoutReducer from "../EssaneInfotech/ReduxLayout/layoutReducer";
 
 
 
@@ -14,7 +15,8 @@ const singleReducer=combineReducers({
     // user:userReducer,
     // products:fakeStoreReducer,
     // cart:CartReducer, 
-    todo:TodoAppReducer
+    // todo:TodoAppReducer
+    card:LayoutReducer
 })
 
 export default singleReducer;
